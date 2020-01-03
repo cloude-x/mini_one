@@ -1,0 +1,13 @@
+<!--miniprogram/pages/friends/friends.wxml-->
+<view class="friends">
+    <view class="friends-container">
+        <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular>
+            <block wx:for="{{background}}" wx:key="*this">
+            <swiper-item>
+                <view class="image" style="background-image: url({{item}})"></view>
+                <!-- <image mode="scaleToFill" src="{{item}}" /> -->
+            </swiper-item>
+            </block>
+      </swiper>
+    </view>
+</view>

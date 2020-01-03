@@ -1,21 +1,9 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
+/**home.wxss**/
+.home {
+    width: 100%;
+    height: 100%;
+    background-image: url("http://up.moxiu.me/pic/2f/e2/76/2fe276dc9297ea164f4e4391a482315d.jpg");
+    background-position: -200rpx center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

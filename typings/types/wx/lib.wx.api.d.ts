@@ -8836,6 +8836,7 @@ worker.postMessage({
         terminate(): void
     }
     interface Wx {
+        qy: any
         /** [ArrayBuffer wx.base64ToArrayBuffer(string base64)](https://developers.weixin.qq.com/miniprogram/dev/api/base/wx.base64ToArrayBuffer.html)
          *
          * 将 Base64 字符串转成 ArrayBuffer 对象

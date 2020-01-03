@@ -1,12 +1,50 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/personalCenter/personalCenter",
+    "pages/logs/logs",
+    "pages/friends/friends"
   ],
+  "subpackages": [
+    {
+      "root": "subpackages",
+      "pages": [
+        "pages/cat/cat",
+        "pages/punch/punch"
+      ]
+    }
+  ],
+  "tabBar": {
+    "custom": false,
+    "color": "#515151",
+    "selectedColor": "#00cc99",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/icon/home_normal.png",
+        "selectedIconPath": "image/icon/home_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/friends/friends",
+        "iconPath": "image/icon/relationship_normal.png",
+        "selectedIconPath": "image/icon/relationship_active.png",
+        "text": "聚会"
+      },
+      {
+        "pagePath": "pages/personalCenter/personalCenter",
+        "iconPath": "image/icon/info_personal_normal.png",
+        "selectedIconPath": "image/icon/info_personal_active.png",
+        "text": "个人中心"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "Slow Hand",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
